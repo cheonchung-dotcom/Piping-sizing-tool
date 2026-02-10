@@ -57,7 +57,7 @@ if 'network' not in st.session_state:
     st.session_state.network = []
 
 st.set_page_config(page_title="Piping Network Master", layout="wide")
-st.title("🏭 Piping Network Master (Unit Consistent)")
+st.title("🏭 Piping Network Master")
 
 with st.sidebar:
     st.header("📍 Segment Definition")
